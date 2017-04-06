@@ -1,0 +1,34 @@
+{
+  "name": "bex-programmingtest",
+  "version": "1.0.0",
+  "description": "BEX programming test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pasimako@bitbucket.org/balansekonomi/bex-programmingtest.git"
+  },
+  "author": "Martin Krizek",
+  "homepage": "https://bitbucket.org/balansekonomi/bex-programmingtest#readme",
+  "private": true,
+  "dependencies": {
+    "babel": "^6.5.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "morgan": "^1.7.0",
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "fs": "0.0.1-security",
+    "mocha": "^2.3.1"
+  }
+}
